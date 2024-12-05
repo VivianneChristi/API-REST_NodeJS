@@ -1,0 +1,26 @@
+{
+  "development": {
+    "username": "root",
+    "password": "senha_secreta",
+    "database": "app_db_dev",
+    "host": "127.0.0.1",
+    "dialect": "mysql",
+    "logging": true
+  },
+  "test": {
+    "username": "root",
+    "password": "senha_secreta",
+    "database": "app_db_test",
+    "host": "127.0.0.1",
+    "dialect": "mysql",
+    "logging": false
+  },
+  "production": {
+    "username": "root",
+    "password": "senha_secreta",
+    "database": "app_db_prod",
+    "host": "127.0.0.1",
+    "dialect": "mysql",
+    "logging": false
+  }
+}
